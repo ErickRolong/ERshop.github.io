@@ -1,0 +1,81 @@
+h1 {
+    color:rgb(87, 161, 53);
+    text-align: center;
+    font-family: monospace, sans-serif;
+}
+h2 {
+    color:rgb(87, 161, 53);
+    text-align: center;
+    font-family: monospace, sans-serif;
+}
+h3 {
+    color:rgb(87, 161, 53);
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.flex-container{
+    background-color: rgb(179, 247, 173);
+    border: 1px solid rgb(19, 82, 40);
+}
+
+#Pass {
+    position: relative;
+    left: 700px;
+    bottom: 0px;
+    z-index: 2;
+    right: 50px;}
+
+    @media all and (max-width: 1024px){
+              
+        .flex-container{
+            float: left;
+            width: 20;
+            background-color: rgb(182, 253, 168);
+    border: 1px solid rgb(19, 82, 40);
+        }
+        h1{
+            color:rgb(87, 161, 53);
+        }
+        h3{
+            color:rgb(87, 161, 53);
+        }
+        body{
+            background-color: rgb(191, 247, 165);
+        
+        }
+    }
+    @media all and (max-width: 768px){
+        .flex-container{
+            float: unset;
+            width: 30;
+            background-color: rgb(107, 176, 223);
+            border: 1px solid rgb(63, 91, 151);
+        }
+        h1{
+            color:rgb(48, 89, 165);
+        }
+        h3{
+            color:rgb(41, 72, 158);
+        }
+      body{
+          background-color: rgb(165, 224, 247);
+      }
+  }
+  @media all and (max-width: 480px){
+    .flex-container{
+        float: right;
+        width: 40;
+        background-color: rgb(219, 191, 245);
+    border: 1px solid rgb(72, 19, 82);
+    }
+    h1{
+        color:rgb(110, 55, 182);
+    }
+    h3{
+        color:rgb(121, 53, 161);
+    }
+      body{
+          background-color: rgb(190, 165, 247);
+      }
+  }
